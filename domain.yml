@@ -1,0 +1,34 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - introduction
+  - current_time
+  - titan_shop
+  - contact
+
+entities:
+  - subject
+  - material_type
+
+actions:
+  - action_current_time
+  - action_titan_shop
+
+responses:
+  utter_greet:
+  - text: "Hey! How can i help you...?"
+
+  utter_goodbye:
+  - text: "Bye, Have a Nice Day! "
+
+  utter_contact:
+  - text: "For contact us please find our toll free customer care number 1800-266-0123"
+
+  utter_iamabot:
+  - text: "Hello, i am an highly intelligent ai bot developed by Priya Raut student of ITVedant"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

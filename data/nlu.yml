@@ -1,0 +1,66 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+ 
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: introduction
+  examples: |
+    - tell me something about yourself
+    - who are you
+    - your name please
+    - introduce yourself
+    - are you a robot
+
+
+- intent: current_time
+  examples: |
+    - tell me whats the time
+    - what is the time
+    - time
+    - time please
+
+- intent: contact
+  examples: |
+    - give me customer service number
+    - i have complaint
+    - want to register complaint
+    - want to give feedback
+    - Question regarding shopping
+
+
+- intent: titan_shop
+  examples: |
+    - help me for finding[titan](subject) [watches](material_type) for men
+    - provide me list of[titan](subject)[watches] 
+    - show me some [titan](subject) [glasses](material_type) for female
+    - please give [glasses](material_type) of[titan](subject)brand
+    - give me list of [watches](material_type) available in [fastrack](subject)
+    - send me [glasses](material_type) for ladies[fastrack](subject)
+    - send me [glasses](material_type) for males [fastrack](subject)
